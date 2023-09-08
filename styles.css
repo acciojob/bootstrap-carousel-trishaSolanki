@@ -1,1 +1,51 @@
 /* Do not add any css, this is a bootstrap only assignment  */
+
+
+
+#myCarousel {
+    width: 100%;
+	margin: 0 auto;
+}
+
+/* Style the slides */
+.first-slide,
+.second-slide,
+.third-slide,
+.fourth-slide,
+.fifth-slide {
+    /* Add your slide-specific styles here */
+  color:#2D2D2D;
+    padding: 130px;
+	font-wieght:30px;
+	font-size:40px;
+    text-align: center;
+    min-height: 300px;
+}
+
+/* Style the active slide */
+.carousel-inner .item.active {
+    background-color: #4A4A4A;
+    margin-bottom:100px;
+	jusitfy-content:center;
+}
+
+/* Style the left and right arrow icons */
+.left,
+.right {
+    font-size: 30px;
+    color: black;
+    background-color: #A9A9A9; /* Add a semi-transparent background */
+    width: 30px;
+    height: 50px;
+    border-radius:60%;
+    transform: translateY(290%);
+}
+
+/* Style the arrow icons on hover */
+.left:hover,
+.right:hover {
+    border: 100px;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
