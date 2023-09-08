@@ -2,7 +2,7 @@
 
 
 
-#myCarousel {
+#myCarousel, .carousel {
     width: 100%;
 	margin: 0 auto;
 }
@@ -44,7 +44,7 @@
 /* Style the arrow icons on hover */
 .left:hover,
 .right:hover {
-    border: 100px;
+    
     color: #fff;
     transition: background-color 0.3s, color 0.3s;
 }
